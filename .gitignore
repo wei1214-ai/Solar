@@ -1,0 +1,29 @@
+# --- Python ---------------------------------------------------------------
+**/__pycache__/
+*.py[cod]
+**/.venv/
+.pytest_cache/
+*.log
+
+# --- Node / Next.js -------------------------------------------------------
+**/node_modules/
+**/.next/
+**/out/
+*.tsbuildinfo
+
+# --- Secrets & local state (never commit) ---------------------------------
+**/.env
+**/.env.local
+!**/.env.example
+**/*.db
+**/*.db-journal
+**/*.sqlite
+**/.cache/
+
+# --- OS / editors ---------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp

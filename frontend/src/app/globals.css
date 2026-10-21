@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+  background: #020617;
+}
+
+.leaflet-container {
+  background: #020617;
+  font-family: inherit;
+}
+
+.leaflet-control-layers {
+  background: rgba(2, 6, 23, 0.9) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #e2e8f0 !important;
+  backdrop-filter: blur(6px);
+}
+
+.leaflet-control-layers-expanded {
+  padding: 8px 10px !important;
+  font-size: 11px;
+}
+
+.leaflet-control-layers label {
+  margin-bottom: 2px;
+}
+
+.leaflet-bar a {
+  background: rgba(2, 6, 23, 0.9) !important;
+  color: #e2e8f0 !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: rgba(2, 6, 23, 0.94) !important;
+  color: #e2e8f0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.leaflet-tooltip {
+  background: rgba(2, 6, 23, 0.92) !important;
+  color: #f8fafc !important;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.28);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.45);
+}
